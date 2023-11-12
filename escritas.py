@@ -1,13 +1,14 @@
 from colorama import init, Fore, Back, Style
 init()
-from  palavras import *
-from filtrapalavras import *
-from indicaposicaocorreta import * 
-from inicializatermo import *
+from palavras import PALAVRAS as plvs
+from filtrapalavras import filtra
+from filtrapalavras import lista_atualizada as listat
+from indicaposicaocorreta import inidica_posicao
+from inicializatermo import inicializa
 print( '===========================')
 print('|                           |')
 print('| Bem-vindo ao Insper Termo |')
-print('|                           |')
+print('|                           |') 
 print(' ==== Design de Software ===' )
 print(' ')
 print('Comandos: desisto')
@@ -25,5 +26,5 @@ print(' ')
 print('Sorteando uma palavra...')
 print('Já tenho uma palavra! Tente adivinhá-la!')
 print(' ')
-print('Você tem 6 tentaviva(s)')
-print('Qual seu palpite?' )
+
+resultado = inidica_posicao()

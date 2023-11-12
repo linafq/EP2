@@ -1,3 +1,4 @@
+from palavras import PALAVRAS as plvs
 def filtra (palavras,numero):
     especiais = ['?', '!', '@', '#', '$', '%', '&', '*']
     lista_nova = []
@@ -12,3 +13,5 @@ def filtra (palavras,numero):
         
         
     return lista_nova     
+
+lista_atualizada = filtra(plvs,5)

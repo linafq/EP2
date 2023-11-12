@@ -1,5 +1,3 @@
-from inicializatermo import sorteada
-
 def inidica_posicao (sorteada,especulada):
     lista = []
     if len(sorteada) != len(especulada):
@@ -17,4 +15,4 @@ def inidica_posicao (sorteada,especulada):
                 lista.append(2)
 
     
-    return lista 
+    return lista

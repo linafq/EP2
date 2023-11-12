@@ -1,4 +1,5 @@
 import random
+from filtrapalavras import lista_atualizada as listat
 
 def inicializa (lista_palavras):
 
@@ -14,3 +15,6 @@ def inicializa (lista_palavras):
 
     return dic
        
+
+dicionario = inicializa(listat)
+sorteada = dicionario['sorteada']
